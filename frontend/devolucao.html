@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empréstimo de Livro</title>
+    <link rel="stylesheet" type="text/css" href="devolucao.css" />
+</head>
+<body>
+
+<div class="container">
+    <h2>Realizar uma Devolução</h2>
+    <form action="#" method="post" id="form">
+        <label for="usuario">Usuário</label>
+        <input type="text" id="usuario" name="usuario" required>
+
+        <label for="titulo">Título do livro</label>
+        <input type="text" id="titulo" name="titulo" required>
+
+        <label for="data_devolucao">Data de Devolução</label>
+        <input type="text" id="data_devolucao" name="data_devolucao" required>
+
+        <button type="submit">Salvar</button>
+    </form>
+</div>
+<script src="js/fetch_devolucao.js"></script>
+</body>
+</html>

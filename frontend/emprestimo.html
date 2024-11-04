@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empréstimo de Livro</title>
+    <link rel="stylesheet" type="text/css" href="emprestimo.css" />
+</head>
+<body>
+
+<div class="container">
+    <h2>Realizar um Empréstimo</h2>
+    <form action="#" method="post" id="form">
+        <label for="usuario">Usuário</label>
+        <input type="text" id="usuario" name="usuario" required>
+
+        <label for="titulo">Título do livro</label>
+        <input type="text" id="titulo" name="titulo" required>
+
+        <label for="data_emprestimo">Data de Empréstimo</label>
+        <input type="text" id="data_emprestimo" name="data_emprestimo" required>
+
+        <button type="submit">Salvar</button>
+    </form>
+</div>
+<script src="js/fetch_realizar_emprestimo.js"></script>
+</body>
+</html>

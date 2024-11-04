@@ -1,0 +1,22 @@
+{
+  "name": "mini-projeto-biblioteca",
+  "version": "1.0.0",
+  "description": "um projeto de estudos",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "author": "Micaelly Lima",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "prisma": "^5.21.1"
+  }
+}

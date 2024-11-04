@@ -1,0 +1,129 @@
+ /* Estilos gerais */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Container da página */
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: #777777;
+}
+
+/* Barra de título */
+.title-bar {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+}
+
+/* Barra lateral */
+.sidebar {
+    background-color: #333;
+    width: 300px;
+    padding: 20px 30px;
+    margin-left: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* Botões da barra lateral */
+.sidebar button {
+    background-color: #666;
+    color: #fff;
+    width: 90%;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.text {
+    text-decoration: none;
+    color: #ccc;
+    font-weight: 600;
+}
+
+/* Efeito hover nos botões */
+.sidebar button:hover {
+    background-color: #888;
+}
+
+/* Área de conteúdo principal */
+.main-content {
+    background-color: #f5f5f5;
+    flex: 1;
+    padding: 20px;
+}
+
+/* Container do formulário de cadastro */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Título do formulário */
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilos do formulário */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-group input:focus {
+    border-color: #888;
+}
+
+/* Botão de envio */
+.btn-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #D48C7C;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #c0745e;
+}
